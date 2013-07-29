@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView android:id="@+id/splashScreenImage"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/splash"
+            />
+
+     <TextView android:text="game by: Bijesh"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_gravity="center_horizontal|bottom"/>
+
+</FrameLayout>
+<!-- From: file:/home/npcompete/Bijesh/AndroiStudioWorkspace/StarFighter/StarFighter/StarFighter/src/main/res/layout/splash_screen.xml -->
